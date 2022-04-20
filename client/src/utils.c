@@ -29,10 +29,10 @@ int crear_conexion(char *ip, char* puerto)
 	getaddrinfo(ip, puerto, &hints, &server_info);
 
 	// Ahora vamos a crear el socket.
-	int socket_cliente = 0;
+	int socket_cliente = socket(server_info->ai_family, server_info->ai_socktype , server_info->ai_protocol);
 
-	// Ahora que tenemos el socket, vamos a conectarlo
-
+	// Ahora que tenemos el socket, vamos a conectarlo ITEM 3 .. connect
+	connect(socket_cliente, server_info->ai_addr, server_info -> ai_addrlen);
 
 	freeaddrinfo(server_info);
 
@@ -54,6 +54,7 @@ void enviar_mensaje(char* mensaje, int socket_cliente)
 	void* a_enviar = serializar_paquete(paquete, bytes);
 
 	send(socket_cliente, a_enviar, bytes, 0);
+
 
 	free(a_enviar);
 	eliminar_paquete(paquete);
@@ -77,6 +78,8 @@ t_paquete* crear_super_paquete(void)
 	//crear_buffer(paquete);
 	return paquete;
 }
+
+
 
 t_paquete* crear_paquete(void)
 {

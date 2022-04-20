@@ -1,0 +1,27 @@
+[INFO] 00:43:37:905 Servidor/(22317:22317): Servidor listo para recibir al cliente
+[INFO] 01:14:33:348 Servidor/(24312:24312): Servidor listo para recibir al cliente
+[INFO] 01:16:29:934 Servidor/(24419:24419): Servidor listo para recibir al cliente
+[INFO] 01:16:44:007 Servidor/(24436:24436): Servidor listo para recibir al cliente
+[INFO] 01:43:37:222 Servidor/(26122:26122): Servidor listo para recibir al cliente
+[INFO] 15:03:37:854 Servidor/(3586:3586): Servidor listo para recibir al cliente
+[INFO] 15:22:02:087 Servidor/(6246:6246): Servidor listo para recibir al cliente
+[INFO] 15:43:04:231 Servidor/(8867:8867): Servidor listo para recibir al cliente
+[INFO] 15:45:32:830 Servidor/(9110:9110): Servidor listo para recibir al cliente
+[INFO] 15:46:00:514 Servidor/(9165:9165): Servidor listo para recibir al cliente
+[INFO] 16:18:16:556 Servidor/(9165:9165): Se conecto un cliente!
+[INFO] 16:18:16:556 Servidor/(9165:9165): Me llego el mensaje VALOR
+[ERROR] 16:18:16:556 Servidor/(9165:9165): el cliente se desconecto. Terminando servidor
+[INFO] 15:28:16:718 Servidor/(5205:5205): Servidor listo para recibir al cliente
+[INFO] 15:28:28:499 Servidor/(5205:5205): Se conecto un cliente!
+[INFO] 15:28:28:500 Servidor/(5205:5205): Me llego el mensaje VALOR
+[ERROR] 15:28:28:500 Servidor/(5205:5205): el cliente se desconecto. Terminando servidor
+[INFO] 15:50:04:368 Servidor/(8712:8712): Servidor listo para recibir al cliente
+[INFO] 15:50:10:422 Servidor/(8712:8712): Se conecto un cliente!
+[INFO] 15:50:10:427 Servidor/(8712:8712): Me llego el mensaje VALOR
+[INFO] 15:50:18:436 Servidor/(8712:8712): Me llegaron los siguientes valores:
+
+[INFO] 15:50:18:438 Servidor/(8712:8712): 4
+[INFO] 15:50:18:439 Servidor/(8712:8712): 2
+[INFO] 15:50:18:439 Servidor/(8712:8712): 1
+[INFO] 15:50:18:439 Servidor/(8712:8712): 
+[ERROR] 15:50:18:439 Servidor/(8712:8712): el cliente se desconecto. Terminando servidor
